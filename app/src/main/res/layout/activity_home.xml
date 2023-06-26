@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/ll_container"
+        android:gravity="bottom|center"
+        android:orientation="horizontal" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+               style="@style/TabButton"
+               android:drawableTop="@drawable/tab_home_selector"
+               android:text="首页"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_classify"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TabButton"
+                android:drawableTop="@drawable/tab_classify_selector"
+                android:text="分类"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_cart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TabButton"
+                android:drawableTop="@drawable/tab_cart_selector"
+                android:text="购物车"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_user_center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TabButton"
+                android:drawableTop="@drawable/tab_usercenter_selector"
+                android:text="我的"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

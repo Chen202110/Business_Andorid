@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="编辑收货地址"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/tv_receiverName"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:text="收货人："
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/et_receiverName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@+id/tv_receiverName"
+                android:background="@drawable/editext_selector"
+                android:gravity="center|left"
+                android:hint="名字"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey"
+                android:textCursorDrawable="@drawable/text_cursor"
+                android:textSize="17sp"></EditText>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/tv_receiverPhone"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:text="手机号码："
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/et_receiverPhone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@+id/tv_receiverPhone"
+                android:background="@drawable/editext_selector"
+                android:gravity="center|left"
+                android:hint="手机号"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey"
+                android:textCursorDrawable="@drawable/text_cursor"
+                android:textSize="17sp"></EditText>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/tv_receiverProvince"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:text="省份："
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/et_receiverProvince"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@+id/tv_receiverProvince"
+                android:background="@drawable/editext_selector"
+                android:gravity="center|left"
+                android:hint="省份"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey"
+                android:textCursorDrawable="@drawable/text_cursor"
+                android:textSize="17sp"></EditText>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/tv_receiverCity"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:text="城市："
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/et_receiverCity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@+id/tv_receiverCity"
+                android:background="@drawable/editext_selector"
+                android:gravity="center|left"
+                android:hint="城市"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey"
+                android:textCursorDrawable="@drawable/text_cursor"
+                android:textSize="17sp"></EditText>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/tv_receiverDistrict"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:text="区/县："
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/et_receiverDistrict"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@+id/tv_receiverDistrict"
+                android:background="@drawable/editext_selector"
+                android:gravity="center|left"
+                android:hint="区/县"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey"
+                android:textCursorDrawable="@drawable/text_cursor"
+                android:textSize="17sp"></EditText>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/tv_receiverAddress"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:text="详细地址："
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/et_receiverAddress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@+id/tv_receiverAddress"
+                android:background="@drawable/editext_selector"
+                android:gravity="center|left"
+                android:hint="详细地址"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey"
+                android:textCursorDrawable="@drawable/text_cursor"
+                android:textSize="17sp"></EditText>
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_shipping_save"
+            android:text="保存"
+            android:textSize="20sp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</ScrollView>
